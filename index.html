@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writer Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="commonStyle.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        txtColor: '#008957',
+                        txtColor2: '#555555',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 font-['Playfair_Display',serif]">
+    <section class="container mx-auto px-4 py-12 flex justify-center">
+        <div class="">
+            <!-- Writer Image Section -->
+            <div class="flex flex-col md:flex-row items-center gap-10 p-4 bg-white shadow-lg rounded-lg">
+                <div class="flex-shrink-0">
+                    <img src="/assets/img01.jpg" class="w-52 h-auto rounded-full ">
+                </div>
+                  
+                <div>
+                    <div>
+                        <h2 class="font-bold text-2xl sm:text-2xl md:text-3xl text-center md:text-left">
+                            Writer Name
+                        </h2>
+                        <h3 class="font-semibold text-sm sm:text-base md:text-lg mb-2 md:mb-4 text-center md:text-left">
+                            Position, Institute
+                        </h3>
+                    </div>
+                    
+
+                    <h2 class="font-bold text-xl text-txtColor">Biography</h2>
+                    <p class="mt-2 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. In egestas, lorem at venenatis finibus, leo erat varius urna, vel ultrices lorem lacus non erat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, voluptatum. Doloribus dolorum, quam doloremque nostrum aliquid molestiae cum laboriosam enim? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt dignissimos, praesentium quam aut ad nihil quibusdam voluptas natus omnis voluptatem?</p>
+                </div>
+            </div>
+            
+    
+            <!-- Writer Info Section -->
+            <div class="mt-20 mx-auto">
+                <div class="flex flex-col justify-center">
+                    <!-- Books Section -->
+                    <h3
+                        class="font-bold text-2xl mb-4 text-center bg-[#008957] text-[#ffffff] rounded-lg  inline-block px-4 py-2">Books By This Writer</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <!-- Book 1 -->
+                        <div
+                            class="bg-gray-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md hover:scale-105">
+                            <img src="/assets/book01.jpg" class="w-full h-64 object-cover rounded-md mb-4"
+                                alt="Book cover">
+                            <h4 class="font-bold text-xl mb-2 text-center">Fortran Programming</h4>
+                            <p class="mb-2 text-center">Prof. Dr. B. M. Ikramul Haque <br> Dr. Md. Sarwar Hossain </p>
+                            <!-- Rating -->
+                            <div class="text-center">
+                                <a href="#"
+                                    class="text-indigo-600 underline hover:text-indigo-800 transition-all duration-300">Read
+                                    more</a>
+                            </div>
+                        </div>
+
+                        <!-- Book 2 -->
+                        <div
+                            class="bg-gray-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md hover:scale-105">
+                            <img src="/assets/book02.jpg" class="w-full h-64 object-cover rounded-md mb-4"
+                                alt="Book cover">
+                            <h4 class="font-bold text-xl mb-2  text-center">Discrete Mathematics</h4>
+                            <p class="text-gray-500 mb-2 text-center">Prof. Dr. B. M. Ikramul Haque <br> Sunzida Sultana <br> Dr. Md. Sarwar Hossain </p>
+                            <!-- Rating -->
+                            <div class="text-center">
+                                <a href="#"
+                                    class="text-indigo-600 underline hover:text-indigo-800 transition-all duration-300">Read
+                                    more</a>
+                            </div>
+                        </div>
+
+                        <!-- Book 3 -->
+                        <div
+                            class="bg-gray-50 rounded-lg p-4 transition-all duration-300 hover:shadow-md hover:scale-105">
+                            <img src="/assets/book03.jpg" class="w-full h-64 object-cover rounded-md mb-4"
+                                alt="Book cover">
+                            <h4 class="font-bold text-xl mb-2 text-center">Topology</h4>
+                            <p class="text-gray-500 mb-2 text-center">Prof. Dr. B. M. Ikramul Haque <br> Md. Mahtab Hossain Mondal <br> S.M Asaduzzaman <br> Dr. Md. Sarwar Hossain</p>
+                            <!-- Rating -->
+                            <div class="text-center">
+                                <a href="#"
+                                    class="text-indigo-600 underline hover:text-indigo-800 transition-all duration-300">Read
+                                    more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
