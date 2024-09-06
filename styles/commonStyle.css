@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5, h6{
+    color: #008957;
+}
+
+p{
+    color: #555555;
+}
+
+.text-link{
+    font-weight: 500;
+    color: #2563EB;
+    text-decoration: none;
+}
+
+.text-link:hover{
+    text-decoration: underline;
+}
+
+.see-details{
+
+}
