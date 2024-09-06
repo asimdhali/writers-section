@@ -14,8 +14,5 @@ p{
 
 .text-link:hover{
     text-decoration: underline;
-}
-
-.see-details{
-
+    color: #FF5733;
 }
